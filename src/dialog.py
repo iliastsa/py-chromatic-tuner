@@ -1,8 +1,9 @@
-from Tkinter import *
-import tkSimpleDialog
+from tkinter import *   ## notice lowercase 't' in tkinter here
+#import tkSimpleDialog
+import tkinter.simpledialog
 import tuner
 
-class Settings(tkSimpleDialog.Dialog):
+class Settings(tkinter.simpledialog.Dialog):
     def body(self, master):
         self.c_freq = StringVar()
         self.c_freq.set(str(440))

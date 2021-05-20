@@ -91,4 +91,4 @@ class Tuner:
                         pre = "  " + (pos - 1) * ".  " + utility.colorize(">  ", errorper, tolerance) + (accuracy - pos) * ".  "
                 
                     print (pre + "|" + post + "  " + output + '\r', end = '')
-        	sys.stdout.flush()
+            sys.stdout.flush()

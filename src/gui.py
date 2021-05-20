@@ -1,4 +1,4 @@
-from Tkinter import *
+from tkinter import *   ## notice lowercase 't' in tkinter here
 from colour import Color
 from PIL import Image, ImageTk
 import tuner
@@ -44,8 +44,8 @@ class App:
         self.__width  = width
         self.__height = height
 
-        pos = "+{}+{}".format(screen_w/2-self.__width/2,
-                              screen_h/2-self.__height/2)
+        pos = "{}x{}".format(int(screen_w/2-self.__width/2),
+                              int(screen_h/2-self.__height/2))
 
         self.__master.title("Chromatic tuner")
 

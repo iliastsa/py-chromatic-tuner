@@ -16,9 +16,9 @@ def findnote(freq, C0):
 
 def colorize(string, errorper, tolerance):
     if errorper <= tolerance:
-	return '\033[32m' + string + '\033[0m'
+	    return '\033[32m' + string + '\033[0m'
     elif errorper < 0.33:
-	return '\033[93m' + string + '\033[0m'
+	    return '\033[93m' + string + '\033[0m'
     elif errorper < 0.66:
         return '\033[33m' + string + '\033[0m'
     else:
