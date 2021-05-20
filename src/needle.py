@@ -1,4 +1,4 @@
-from Tkinter import *
+from tkinter import *   ## notice lowercase 't' in tkinter here
 from colour import Color
 import math
 
